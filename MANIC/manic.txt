@@ -1,0 +1,114 @@
+Configuration	manic
+STM32CubeMX 	6.5.0
+Date	05/21/2023
+MCU	STM32F429ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ETH	MII Full Duplex Only	ETH_MDC	PC1
+ETH	MII Full Duplex Only	ETH_MDIO	PA2
+ETH	MII Full Duplex Only	ETH_RXD0	PC4
+ETH	MII Full Duplex Only	ETH_RXD1	PC5
+ETH	MII Full Duplex Only	ETH_RXD2	PB0
+ETH	MII Full Duplex Only	ETH_RXD3	PB1
+ETH	MII Full Duplex Only	ETH_RX_CLK	PA1
+ETH	MII Full Duplex Only	ETH_RX_DV	PA7
+ETH	MII Full Duplex Only	ETH_TXD0	PB12
+ETH	MII Full Duplex Only	ETH_TXD1	PB13
+ETH	MII Full Duplex Only	ETH_TXD2	PC2
+ETH	MII Full Duplex Only	ETH_TXD3	PE2
+ETH	MII Full Duplex Only	ETH_TX_CLK	PC3
+ETH	MII Full Duplex Only	ETH_TX_EN	PB11
+ETH	Activate Rx Err signal	ETH_RX_ER	PB10
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0/OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1/OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	ETH_TXD3	
+23	PH0/OSC_IN	RCC_OSC_IN	
+24	PH1/OSC_OUT	RCC_OSC_OUT	
+27	PC1	ETH_MDC	
+28	PC2	ETH_TXD2	
+29	PC3	ETH_TX_CLK	
+35	PA1	ETH_RX_CLK	
+36	PA2	ETH_MDIO	
+43	PA7	ETH_RX_DV	
+44	PC4	ETH_RXD0	
+45	PC5	ETH_RXD1	
+46	PB0	ETH_RXD2	
+47	PB1	ETH_RXD3	
+69	PB10	ETH_RX_ER	
+70	PB11	ETH_TX_EN	
+73	PB12	ETH_TXD0	
+74	PB13	ETH_TXD1	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ETH	MII Full Duplex Only	ETH_MDC	PC1
+ETH	MII Full Duplex Only	ETH_MDIO	PA2
+ETH	MII Full Duplex Only	ETH_RXD0	PC4
+ETH	MII Full Duplex Only	ETH_RXD1	PC5
+ETH	MII Full Duplex Only	ETH_RXD2	PB0
+ETH	MII Full Duplex Only	ETH_RXD3	PB1
+ETH	MII Full Duplex Only	ETH_RX_CLK	PA1
+ETH	MII Full Duplex Only	ETH_RX_DV	PA7
+ETH	MII Full Duplex Only	ETH_TXD0	PB12
+ETH	MII Full Duplex Only	ETH_TXD1	PB13
+ETH	MII Full Duplex Only	ETH_TXD2	PC2
+ETH	MII Full Duplex Only	ETH_TXD3	PE2
+ETH	MII Full Duplex Only	ETH_TX_CLK	PC3
+ETH	MII Full Duplex Only	ETH_TX_EN	PB11
+ETH	Activate Rx Err signal	ETH_RX_ER	PB10
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0/OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1/OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	ETH_TXD3	
+23	PH0/OSC_IN	RCC_OSC_IN	
+24	PH1/OSC_OUT	RCC_OSC_OUT	
+27	PC1	ETH_MDC	
+28	PC2	ETH_TXD2	
+29	PC3	ETH_TX_CLK	
+35	PA1	ETH_RX_CLK	
+36	PA2	ETH_MDIO	
+43	PA7	ETH_RX_DV	
+44	PC4	ETH_RXD0	
+45	PC5	ETH_RXD1	
+46	PB0	ETH_RXD2	
+47	PB1	ETH_RXD3	
+69	PB10	ETH_RX_ER	
+70	PB11	ETH_TX_EN	
+73	PB12	ETH_TXD0	
+74	PB13	ETH_TXD1	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : manic
+Project Folder : D:\manic_prog\alluserisfagotts\MANIC
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.27.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
